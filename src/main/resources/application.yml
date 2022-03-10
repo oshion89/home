@@ -1,0 +1,14 @@
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mariadb://13.125.163.95:3306/hoos_home
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: root
+
+mybatis:
+  type-aliases-package: com.hoo.home.dto
+  mapper-locations: mybatis/**.xml
